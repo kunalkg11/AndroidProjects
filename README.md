@@ -13,4 +13,6 @@ Most Popular Category and Average API Access Time (milliseconds).
 
 The application sits on top of a RESTful architecture, deployed as a web service on Heroku.
 
+You can checkout the App screens in the repository as well!
+
 Hope you get to explore the World of Star Wars!
