@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Welcome to the World of Star Wars"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Click on one of the images!"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/imageButton_films"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/films"
+            android:weightSum="2" />
+
+        <ImageButton
+            android:id="@+id/imageButton_people"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/people"
+            android:weightSum="2" />
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="30dp"
+        android:text=" Films                                        People" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/imageButton_planets"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/planets"
+            android:weightSum="2" />
+
+        <ImageButton
+            android:id="@+id/imageButton_starships"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/starships"
+            android:weightSum="2" />
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:layout_marginRight="30dp"
+        android:text="Planets                                    Starships" />-->
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Always pass on what you have learned. ~ Yoda"
+        android:textSize="18dp"/>
+
+</LinearLayout>
